@@ -1,0 +1,73 @@
+.home{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage{
+    height: 600px
+    
+}
+
+.caption{
+    position: absolute;
+    bottom: 2rem;
+    margin: 0 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: left;
+}
+.rating{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.date{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.carousel.carousel-slider .control-arrow{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 540px) {
+    .home{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right:1rem;
+        margin-bottom: 1rem;
+    }
+    .posterImage{
+        height: auto;
+    }
+    .caption{
+        position: absolute;
+        bottom: 10px;
+        margin: 0 1rem;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .date{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    .rating{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    .carousel.carousel-slider .control-arrow {
+        top: 0;
+        color: #fff;
+        font-size: 26px;
+        bottom: 0;
+        margin-top: 0;
+    }
+    .carousel .control-dots .dot {
+        margin: 0 3px;
+    }    
+}
